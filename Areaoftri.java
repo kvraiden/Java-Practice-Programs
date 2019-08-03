@@ -4,7 +4,7 @@ class Areaoftri{
 	{
 	Scanner s= new Scanner(System.in);
 	System.out.println("Enter the width of triangle:-");
-	double w= s.nextDouble(); 
+	double w= s.nextDouble(); //Be very careful while using nextDouble because keep in mind Case of each method
 	System.out.println("Enter the height of triangle:-");
 	double h= s.nextDouble(); 
 	double area= (w+h)/2;
