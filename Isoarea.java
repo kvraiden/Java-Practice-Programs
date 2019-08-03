@@ -10,7 +10,7 @@ class Isoarea{
 	System.out.println("Enter the length of base");
 	double b= s.nextDouble();
 	//Main logic
-	double area= ((b/4)*Math.sqrt((4*a*a)-(b*b)));
+	double area= ((b/4)*Math.sqrt((4*a*a)-(b*b)));//Math.aqrt is a method in Java.Lang.Math.Sqrt() which returns rounded positive sqrt of input
 	System.out.println("Area of special triangle is:- "+area);
 }
 }	
