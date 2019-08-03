@@ -10,7 +10,7 @@ class Wfibo
 	System.out.println("Fibonacci series is ");
 	int i=0;
 	while(i<n)
-	{
+	{				//Using while loop//
 	if(i<=1)
 	nextTerm=i;
 	else
